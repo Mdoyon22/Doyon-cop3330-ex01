@@ -14,6 +14,9 @@ public class Main
         System.out.print("What is your name? ");
         Scanner scan = new Scanner(System.in);
         String name = scan.next();
-        System.out.println("Hello, " + name + ", nice to meet you! " );
+        String names = "";
+        String con = names.concat(name);
+
+        System.out.println("Hello, " + con + ", nice to meet you! " );
     }
 }
